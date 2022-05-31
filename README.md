@@ -1,24 +1,31 @@
-# Dynamics in the optimal versus sub-optimal face network configurations underlying face processing expertise
-
-Python implementation of Betzel et al. (2018) distance-dependent consensus thresholds code.
-
-All rights reserved to Richard Betzel, Indiana University, 2018
-
-Matlab to Python: Gidon Levakov
-
-The original Matlab code and data could be found in:
-
-[https://www.brainnetworkslab.com/coderesources](https://www.brainnetworkslab.com/coderesources)
+# Fine-scale dynamics of functional connectivity in the face processing network during movie watching
 
 
-## Files description
-* consensus_thresh.py - the main distance-dependent consistency function
-* example.py - script for running the example data found [here](https://www.brainnetworkslab.com/coderesources)
+
+Python implementation of the analysis from Levakov et al. 2022 paper, mainly the following:
+
+* face_detection_cnn.py - Code for extracting face features from the movie frames
+* frames_face_detected.mp4 - A movie depicting the face annotation
+* faces_area.npy, n_faces.npy - Extracted face measures
+* is_nts_ets_simulation.ipynb - Interactive notebook demonstrating the IS-N/ETS derivation and the IS edge seed correlation method
+* is_edge_seed_corr.py - In preparation
+* plot_utils.py - Functions used in is_nts_ets_simulation.ipynb
+* isc_standalone.py - Inter-subject correlation standalone version with the IS-N/ETS implementations
+
+## isc_standalone.py
+A modified version from: https://github.com/snastase/isc-tutorial/blob/master/isc_tutorial/isc_standalone.py
+
+The major change is the addition of functions for calculating inter-subject
+
+
+The following main functions were added:
+
+* isc_ets - Intersubject node time-series (IS-NTS)
+* isfc_ets - Intersubject edge time-series (IS-ETS)
 
 ## Citing
 
 If you use this code, please cite:
 
-    Betzel, R. F., Griffa, A., Hagmann, P., & Misic, B. (2018). Distance-dependent consensus thresholds 
-    for generating group-representative structural brain networks. Network Neuroscience, 1-22.
+    Levakov, G., Sporns, O., & Avidan, G. (2022). Fine-scale dynamics of functional connectivity in the face processing network during movie watching. In preparation
 
