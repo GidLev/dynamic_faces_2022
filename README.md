@@ -27,5 +27,4 @@ The following main functions were added:
 
 If you use this code, please cite:
 
-    Levakov, G., Sporns, O., & Avidan, G. (2022). Fine-scale dynamics of functional connectivity in the face processing network during movie watching. In preparation
-
+    Levakov, G., Sporns, O., & Avidan, G. (2022). Fine-scale dynamics of functional connectivity in the face processing network during movie watching. bioRxiv.
